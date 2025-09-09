@@ -9,7 +9,7 @@ The purpose of this program is to use a web URL API to conbsume their data and r
 
 The steps followed are:
 - Extract 20 pokémon characters by calling the pokemon endpoint https://pokeapi.co/api/v2/pokemon
-- For each Pokémon character obtain its height and weight. by calling: https://pokeapi.co/api/v2/pokemon /{id} and store it in a tuple as (name, height, weight)
+- For each Pokémon character obtain its height and weight. by calling: https://pokeapi.co/api/v2/pokemon/{id} and store it in a tuple as (name, height, weight)
 - Load the list to dataframe (DF)
 
 #### Tools Used
