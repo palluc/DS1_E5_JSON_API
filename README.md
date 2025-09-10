@@ -17,77 +17,56 @@ Required tools to run the program are :</br>
 \- Jupyter Notebook (It is recommended to install full Python distribution with Anaconda Python distribtion) </br>
 
 #### Program walk-through
-
 - Launch the Jupyter Notebook: <br/>
 <p style="border: 2px solid #000000; padding: 1px;">
 <table><tr><td>
-<img src="https://github.com/user-attachments/assets/a1d2ac89-028b-4dc0-9ea4-5fbbc2f5039b" width="80%" height="50%" alt="Launch the Jupyter Notebook" />
+<img src="https://github.com/user-attachments/assets/0898a37d-9d86-44b4-aa15-8d237175fc76" width="80%" height="50%" alt="Launch the Jupyter Notebook" />
 </td></tr></table>
 </p>
 </br>
 
-- Read in URL with BeautifulSoup: <br/>
+- Extract 20 pokémon characters using the pokemon endpoint https://pokeapi.co/api/v2/pokemon: </br>
 <p style="border: 2px solid #000000; padding: 1px;">
 <table><tr><td>
-<img src="" width="80%" height="50%" alt="collects 3 sets of data from the console" />
+<img src="https://github.com/user-attachments/assets/adad8478-709b-431e-b637-1d933fac8a6b" width="80%" height="50%" alt="Call API" />
+<img src="https://github.com/user-attachments/assets/139eae56-a06d-4631-b924-3cdc57fc2c2c" width="80%" height="50%" alt="Extract pokemon characters" />
 </td></tr></table>
 </p>
 </br>
 
-- Extract the tags containing information needed: <br/>
+- View extracted data: <br/>
 <p style="border: 2px solid #000000; padding: 1px;">
 <table><tr><td>
-<img src="https://github.com/user-attachments/assets/bc432bef-78d2-4da8-ba57-0bc80bc58779" width="80%" height="50%" alt="collects 3 sets of data from the console"/>
+<img src="https://github.com/user-attachments/assets/b87c0d6f-fbd3-4cd6-907a-b2af7e77bedc" width="80%" height="50%" alt="View pokemon data"/>
 </td></tr>  
-<tr><td>
-<img src="https://github.com/user-attachments/assets/ddd8dafe-1edd-4ef1-9fdc-5e38d8ce7194" width="80%" height="50%" alt="collects 3 sets of data from the console"/>
-</td></tr></table>
-</p>
-</br>
-
-- Print the information in the tuple datatype: <br/>
-<p style="border: 2px solid #000000; padding: 1px;">
-<table><tr><td>
-<img src="https://github.com/user-attachments/assets/0f389fa6-2362-42a1-8c81-618124b8b598" width="80%" height="50%" alt="Print tuple" />
-</td></tr></table>
-</p>
-</br>
-
-
-- Save the data to a CSV file and load it into DF: <br/>
-<p style="border: 2px solid #000000; padding: 1px;">
-<table><tr><td>
-<img src="https://github.com/user-attachments/assets/c7f27341-7e86-4f91-857e-a2f9fd020b2f" height="80%" width="50%" alt="Save to CSV file" style="border: 2px solid black;"/>
-</td></tr></table>
-</p>
-</br>
-
-
-- Write DF to SQLite database: <br/>
-<p style="border: 2px solid #000000; padding: 1px;">
-<table><tr><td>
-<img src="https://github.com/user-attachments/assets/2345d7a1-8cd5-4539-80e8-45e5ca15a323"  height="80%" width="50%" alt="Output FIles" style="border: 2px solid black;"/>
-</td></tr></table>
-</p>
-</br>
-
-- Read in data table and perform summaries on book price by categories:
-<p style="border: 2px solid #000000; padding: 1px;">
-<table>
-<tr><td>
-<img src="https://github.com/user-attachments/assets/6b330d62-9544-4993-89f2-9723b5e42bbd" height="80%" width="70%" alt="Summaries on book price" style="border: 2px solid black;"/></br>
-</td></tr>
 </table>
 </p>
 </br>
 
-- Print summaries:
+- For each Pokemon retrieve height and weight data and then view the data: <br/>
+<p style="border: 2px solid #000000; padding: 1px;">
+<table><tr><td>
+<img src="https://github.com/user-attachments/assets/a6472583-cc0c-4b10-924c-68064e09166b" width="80%" height="50%" alt="Extract height and weight"/>
+</td></tr>
+<tr><td>
+<img src="https://github.com/user-attachments/assets/2f3c871b-15fd-4fb1-8dda-7ba97b7fe19c" width="80%" height="50%" alt="View pokemon data in a tuple datatype"/>
+</td></tr></table>
+</p>
+</br>
+
+- Load into a dataframe (DF): <br/>
+<p style="border: 2px solid #000000; padding: 1px;">
+<table><tr><td>
+<img src="https://github.com/user-attachments/assets/607284a9-70dd-4b1f-bbfb-384a96020e10" height="80%" width="50%" alt="Load to DF" style="border: 2px solid black;"/>
+</td></tr></table>
+</p>
+</br>
+
+- Print DF summary:
 <p style="border: 2px solid #000000; padding: 1px;">
 <table>
 <tr><td> 
-<img src="https://github.com/user-attachments/assets/23f34ae5-ac9a-4252-b1fe-04c96f7024fd" height="80%" width="70%" alt="Summaries on book price" style="border: 2px solid black;"/></br>
+<img src="https://github.com/user-attachments/assets/cb570bf6-6b78-42bb-a2de-ec45aa2505de" height="80%" width="70%" alt="DF count" style="border: 2px solid black;"/></br>
 </td></tr>
 </table>
 </p>
-
-
